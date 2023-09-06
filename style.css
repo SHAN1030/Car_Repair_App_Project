@@ -1,0 +1,75 @@
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px;
+    font-weight:bolder;
+    background-color:whitesmoke;
+}
+
+.header_div
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight:bolder;
+    background-color: brown;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+h3, h4
+
+{
+    font-weight: bolder;
+    font-size: larger;
+    background-color: white;
+    color:blue
+}
+
+img
+{
+    border-radius:40px;
+    border:15px solid #555;
+    width: 400;
+    height:400px;
+       
+}
+
+p
+{
+    font-weight: bolder;
+    letter-spacing: 5px;
+    background-color: yellow;
+    color:blue
+}
+
+.btn-lg
+{
+   font-family: 'Courier New', Courier, monospace;
+   font-weight:bolder;
+   font-size:40px;
+   color:black;
+   margin-top: 20px;
+   letter-spacing: 5px;
+
+}
+
+.copy_right_footer
+{
+  background-color:brown; 
+  color:beige;
+  font-size:xx-large; 
+  line-height:100px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
